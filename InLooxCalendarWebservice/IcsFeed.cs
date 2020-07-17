@@ -16,7 +16,7 @@ namespace InLooxCalendarWebservice
         private const string STANDARD_FREE_KEY = "FBTYPE";
         private const string MICROSOFT_FREE_KEY = "X-MICROSOFT-CDO-BUSYSTATUS";
         private const string FREE_VALUE = "FREE";
-        private TimeSpan _reminderTimespan = TimeSpan.FromMinutes(-30); // <- change this if you like
+        private readonly TimeSpan _reminderTimespan = TimeSpan.FromMinutes(-30); // <- change this if you like
 
         private readonly IEnumerable<WorkPackageView> _items;
 

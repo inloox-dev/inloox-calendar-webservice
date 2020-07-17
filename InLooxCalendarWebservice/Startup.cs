@@ -79,6 +79,11 @@ namespace InLooxCalendarWebservice
                 var feed = new IcsFeed(tasks);
                 await context.Response.WriteAsync(feed.Serialize());
             }
+            else
+            {
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync("Connection error");
+            }
         }
     }
 }

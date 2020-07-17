@@ -32,4 +32,4 @@ To import the feed into Outlook, your users must first obtain a token (see step 
 
 ## Local Server (InLoox PM Enterprise Server)
 
-To connect to a local InLoox service, update the endpoint to InLoox [endPoint](https://github.com/inloox-dev/inloox#L14TDB) to reflect your InLoox PM Enterprise Server url
+To connect to a local InLoox service, update the endpoint to InLoox [endPoint](https://github.com/inloox-dev/inLoox-calendar-webservice/blob/05b33462cd4d77e85d8398dfaebc3bdb2bb77ae5/InLooxCalendarWebservice/Startup.cs#L12) to reflect your InLoox PM Enterprise Server url

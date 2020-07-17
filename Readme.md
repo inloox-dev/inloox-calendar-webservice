@@ -7,8 +7,8 @@ a webserive that reads data from InLoox.ODataClient nuget package https://www.nu
 1. Create an InLoox now! account here: https://app.inlooxnow.com/Account/CreateAndLogin
 2. Create at least one task with a start date and an end date
 3. Obtain a token, go to: https://app.inlooxnow.com/tests/oauth2
-   \Click the "Authorize" button.
-   \Copy the value of the "Access Token" field.
+<space><space>Click the "Authorize" button.
+<space><space>Copy the value of the "Access Token" field.
 4. Run the code in debug mode in a local environment
 5. Navigate to: https://localhost:5001/my-tasks/?access_token={INSERT_ACCESS_TOKEN_HERE}
    Replace ***{INSERT_ACCESS_TOKEN_HERE}*** by the access token you copied in step 3.
@@ -21,8 +21,8 @@ a webserive that reads data from InLoox.ODataClient nuget package https://www.nu
 ### Server Deploy
 
 You can either deploy the application internally to an Internet Information Server or to an Azure App Service.
-\Locally: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
-\Cloud: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
+<space><space>Locally: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
+<space><space>Cloud: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
 
 **Important note:** SSL/TLS is highly recommended
 

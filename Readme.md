@@ -29,7 +29,7 @@ You can either deploy the application internally to an Internet Information Serv
 
 ### User Deploy
 
-To import the feed into Outlook, your users must first obtain a token (see step 2 in Setup section) and then navigate to: webcal://{INSERT_WEBSERIVCE_URL_HERE}/my-tasks/?access_token={INSERT_ACCESS_TOKEN_HERE}
+To import the feed into Outlook, your users must first obtain a token (see step 3 in Setup section) and then navigate to: webcal://{INSERT_WEBSERIVCE_URL_HERE}/my-tasks/?access_token={INSERT_ACCESS_TOKEN_HERE}
 
 ## Local Server (InLoox PM Enterprise Server)
 

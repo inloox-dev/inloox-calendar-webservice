@@ -23,7 +23,7 @@ a webserive that reads data from InLoox.ODataClient nuget package https://www.nu
 
 You can either deploy the application internally to an Internet Information Server or to an Azure App Service:
 - Locally: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
-- Cloud: https://docs.microsoft.com/de-de/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1
+- Cloud: https://docs.microsoft.com/de-de/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-3.1#deploy-the-app-to-azure
 
 **Important note:** SSL/TLS is highly recommended
 
